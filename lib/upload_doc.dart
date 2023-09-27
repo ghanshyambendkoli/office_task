@@ -20,6 +20,8 @@ class _UploadDocState extends State<UploadDoc> {
       child: Column(
           children: [
             Container(
+              padding: 
+              const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
               width: MediaQuery.of(context).size.width,
               height: 215,
               decoration: BoxDecoration(
